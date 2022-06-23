@@ -85,8 +85,8 @@ mysql> exit;
 ~~~
 git clone -b <branch name> <repository link> 
 mysql -u root -p admin123 accounts < <path of "db_backup.sql" file been cloned> 
-mysql -u root -p admin123 accounts <br>
-mysql> show tables; <br>
+mysql -u root -p admin123 accounts 
+mysql> show tables; 
 ~~~
 > The above commands are logging into the mysql as a root user with its pass: admin123 and creating a database "accounts" and intializing it with "db_backup.sql"
 
