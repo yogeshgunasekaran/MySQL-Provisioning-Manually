@@ -83,7 +83,7 @@ mysql> exit;
 
 ### To download and intialize a Database(.sql) that exists in GitHub in our MySQL: (Optional)
 ~~~
-git clone -b <branch name> <repository link> <br>
+git clone -b <branch name> <repository link> 
 mysql -u root -p admin123 accounts < <path of "db_backup.sql" file been cloned> 
 mysql -u root -p admin123 accounts <br>
 mysql> show tables; <br>
