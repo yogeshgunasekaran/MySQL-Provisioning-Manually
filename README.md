@@ -78,7 +78,7 @@ mysql> grant all privileges on accounts.* TO 'admin'@’%’ identified by 'admi
 mysql> FLUSH PRIVILEGES;
 mysql> exit;
 ~~~
-> Now user "admin" can log in remotely from anywhere to this MySQL DB and he has got all the privileges with the "accounts" databse created above. <br>
+> Now user "admin" can log in remotely from anywhere to this MySQL DB and he has got all the privileges with the "accounts" database created above. <br>
 > <br>
 
 ### To download and intialize a Database(.sql) that exists in GitHub in our MySQL:
