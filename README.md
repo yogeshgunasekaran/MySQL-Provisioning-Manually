@@ -81,7 +81,7 @@ mysql> exit;
 > Now user "admin" can log in remotely from anywhere to this MySQL DB and he has got all the privileges with the "accounts" databse created above. <br>
 > <br>
 
-### To download and intialize a Database(.sql) that exists in GitHub in our MySQL: (Optional)
+### To download and intialize a Database(.sql) that exists in GitHub in our MySQL:
 ~~~
 git clone -b <branch name> <repository link> 
 mysql -u root -p admin123 accounts < <path of "db_backup.sql" file been cloned> 
