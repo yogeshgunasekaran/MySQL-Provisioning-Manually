@@ -8,7 +8,7 @@ Installation of MySQL in CentOS7
  ```sh 
  yum update -y 
  ```
-### Set Repository
+### Set EPEL Repository
  ```sh
   yum install epel-release -y 
  ```
